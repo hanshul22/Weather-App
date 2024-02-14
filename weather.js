@@ -2,7 +2,7 @@
 
 // Progression 1: Create a function and fetch data using "fetch" from openweathermap api and display the data as given in reference image.
 fetch(
-  'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=9ed3bb1391f2a31bf448805336bcf313'
+  'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=c60b383aa172ff1ec5cd7a0f811e1c94'
 )
   .then((data) => (data.json())).then((parsedData) =>{
     console.log(parsedData)
